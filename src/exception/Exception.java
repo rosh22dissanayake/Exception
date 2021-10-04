@@ -24,11 +24,14 @@ public class Exception {
              System.out.println("Enter second number");
             int num2 = in.nextInt();
             
-            int sum= num1/num2;
+            System.out.println("Enter third number");
+            int num3 = in.nextInt();    
+                
+            int total= num1+num2+num3;
             
-            System.out.println("Answer ="+sum);
+            System.out.println("Answer ="+total);
              
-            x=2;
+            x=4;
             
         }  catch(Exception e){
                 
