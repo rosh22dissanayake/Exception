@@ -25,13 +25,16 @@ public class Exception {
             int num2 = in.nextInt();
             
             System.out.println("Enter third number");
-            int num3 = in.nextInt();    
+            int num3 = in.nextInt(); 
                 
-            int total= num1+num2+num3;
+            System.out.println("Enter fourth number");
+            int num4 = in.nextInt();    
+                
+            int total= (num1+num2+num3)/num4;
             
             System.out.println("Answer ="+total);
              
-            x=4;
+            x=3;
             
         }  catch(Exception e){
                 
