@@ -30,9 +30,12 @@ public class Exception {
             System.out.println("Enter fourth number");
             int num4 = in.nextInt();
                 
-            int total= (num1+num2) -(num3+num4);
+            System.out.println("Enter fifth number");
+            int num5 = in.nextInt();
+                
+            int t= (num1+num2-num5) -(num3*num4);
             
-            System.out.println("Answer ="+total);
+            System.out.println("Answer ="+t);
              
             x=4;
             
