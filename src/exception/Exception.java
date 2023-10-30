@@ -13,38 +13,41 @@ public class Exception {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int x=1;
+        int y=2;
         do{
             try{
             Scanner in= new Scanner(System.in);
             
-            System.out.println("Enter first number");
-            int num1 = in.nextInt();
+            System.out.println("Insert first number");
+            int number1 = in.nextInt();
             
-             System.out.println("Enter second number");
-            int num2 = in.nextInt();
+             System.out.println("Insert second number");
+            int number2 = in.nextInt();
             
-            System.out.println("Enter third number");
-            int num3 = in.nextInt();  
+            System.out.println("Insert third number");
+            int number3 = in.nextInt();  
                 
-            System.out.println("Enter fourth number");
-            int num4 = in.nextInt();
+            System.out.println("Insert fourth number");
+            int number4 = in.nextInt();
                 
-            System.out.println("Enter fifth number");
-            int num5 = in.nextInt();
+            System.out.println("Insert fifth number");
+            int number5 = in.nextInt();
+
+            System.out.println("Insert sixth number");
+            int number6 = in.nextInt();
                 
-            int t= (num1+num2-num5) -(num3*num4);
+            int total= (number1+number2+number4+number6) -(number3*number5);
             
-            System.out.println("Answer ="+t);
+            System.out.println("Answer ="+total);
              
             x=4;
             
         }  catch(Exception e){
                 
            
-              System.out.println("Error has occured");
+              System.out.println("ERROR");
     }
     
-}while(x==1);
+}while(y==2);
     }
 }
