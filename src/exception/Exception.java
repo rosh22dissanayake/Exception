@@ -13,34 +13,37 @@ public class Exception {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int y=2;
+        int p=1;
         do{
             try{
             Scanner in= new Scanner(System.in);
             
-            System.out.println("Insert first number");
-            int number1 = in.nextInt();
+            System.out.println("add first number");
+            int num1 = in.nextInt();
             
-             System.out.println("Insert second number");
-            int number2 = in.nextInt();
+             System.out.println("add second number");
+            int num2 = in.nextInt();
             
-            System.out.println("Insert third number");
-            int number3 = in.nextInt();  
+            System.out.println("add third number");
+            int num3 = in.nextInt();  
                 
-            System.out.println("Insert fourth number");
-            int number4 = in.nextInt();
+            System.out.println("add fourth number");
+            int num4 = in.nextInt();
                 
-            System.out.println("Insert fifth number");
-            int number5 = in.nextInt();
+            System.out.println("add fifth number");
+            int num5 = in.nextInt();
 
-            System.out.println("Insert sixth number");
-            int number6 = in.nextInt();
+            System.out.println("add sixth number");
+            int num6 = in.nextInt();
+
+            System.out.println("add seventh number");
+            int num7 = in.nextInt();
                 
-            int total= (number1+number2+number4+number6) -(number3*number5);
+            int result= (num1+num2+num4+num7+num6+num3) -(num5);
             
-            System.out.println("Answer ="+total);
+            System.out.println("Answer ="+result);
              
-            x=4;
+            q=3;
             
         }  catch(Exception e){
                 
@@ -48,6 +51,6 @@ public class Exception {
               System.out.println("ERROR");
     }
     
-}while(y==2);
+}while(p==1);
     }
 }
